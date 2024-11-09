@@ -1,0 +1,42 @@
+<!-- show an example for vertical alignment in table with sample code
+ -->
+
+ <table>
+    <thead>
+        <tr>
+            <th>Roll no</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="t1">1</td>
+            <td class="t2">ABC</td>
+            <td class="t3">Nashik</td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+    table{
+        width: 300px;
+         border-collapse:collapse ;
+    }
+    tr td{
+        border: solid;
+        height: 100px;
+    }
+    th{
+        border: solid;
+    }
+    .t1{
+        vertical-align: top;
+    }
+    .t2{
+        vertical-align: middle;
+    }
+    .t3{
+        vertical-align: bottom;
+    }
+</style>
